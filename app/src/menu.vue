@@ -15,8 +15,10 @@
         top $menu-height + 5
 </style>
 <style scoped lang="stylus">
+  $menu-height = 50px
   .menu-wrap
     width 100%
+    height $menu-height
     background-color #324057
     display flex
     .tools

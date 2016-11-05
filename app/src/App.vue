@@ -24,21 +24,25 @@
     text-align: center;
   }
   .page
-    // display flex
-    // flex-direction column
+    display flex
+    flex-direction column
     width 100%
     height 100%
-    header
+    .page-header
       background-color #324057
       display flex
+      // overflow hidden
+    .page-content
+      flex 1
+      overflow-y auto
 </style>
 
 <template>
   <div class="page">
-    <header>
+    <div class="page-header">
       <page-menu></page-menu>
-    </header>
-    <router-view></router-view>
+    </div>
+    <router-view class="page-content"></router-view>
   </div>
 </template>
 
