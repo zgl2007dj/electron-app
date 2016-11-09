@@ -82,7 +82,8 @@ let config = {
     alias: {
       'components': path.join(__dirname, 'app/src/components'),
       'pages': path.join(__dirname, 'app/src/pages'),
-      'src': path.join(__dirname, 'app/src')
+      'src': path.join(__dirname, 'app/src'),
+      'node': path.join(__dirname, 'app/app.asar.unpacked/node_modules')
     },
     extensions: ['', '.js', '.vue', '.json', '.css'],
     fallback: [path.join(__dirname, 'app/node_modules')]

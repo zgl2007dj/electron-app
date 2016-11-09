@@ -1,6 +1,6 @@
 // import {validing} from 'getters';
 // import {validTodo, validDone} from 'actions';
-export default (function() {
+export default (function () {
   return {
     vuex: {
       actions: {
@@ -8,17 +8,17 @@ export default (function() {
       getters: {
       }
     },
-    data() {
+    data () {
       return {
       }
     },
     computed: {
     },
-    ready() {
+    ready () {
     },
     methods: {
     },
     watch: {
     }
-  };
-})();
+  }
+})()

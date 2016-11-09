@@ -10,6 +10,12 @@ Vue.use(Element)
 import App from './App'
 import routes from './routes'
 
+// let noti = new Notification('Title', {
+//   body: 'heheda'
+// })
+
+// console.log(noti)
+
 Vue.use(Electron)
 Vue.use(Resource)
 Vue.use(Router)
